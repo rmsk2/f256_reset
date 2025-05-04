@@ -32,7 +32,7 @@ have to change the variable `BLOCK_HEX` to specify the number of the target flas
 zero if the number is smaller than 0x10). The default value is `0a`. **Be careful**: This is the location 
 for the BASIC help system and you **must** change the block number to a block which is available on your system
 if you use the BASIC help system. After having set the block number to a suitable value you also have to check
-that the variable `PORT` references the COM port used by `FoenixMg` on your system. Finally you can issue
+that the variable `PORT` references the COM port used by `FoenixMgr` on your system. Finally you can issue
 the command `make flash` to build and store the program in onboard flash in one go. You can use `make clean`
 to delete all file which are created during the build process.
 
