@@ -4,7 +4,7 @@ Before I had a reset switch for my C64 the only way to reset the machine was to 
 ROM routine `SYS 64738`. I typed this so often that I still remembered it after about 20
 years when my interest in retro computing reawakened some time ago. The Foenix F256
 machines do come with a reset switch but I sometimes still feel the urge to simply type a 
-command to reset the machine. This repo contains a flash resident program program which allows
+command to reset the machine. This repo contains a flash resident program which allows
 you to do just that: Do `SYS 64738` on your Foenix machine.
 
 # How does it work
