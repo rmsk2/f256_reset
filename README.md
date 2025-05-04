@@ -18,7 +18,7 @@ That is exactly what this program does. It is packaged as a Kernel User Program 
 which can either be written to onboard flash or a flash cartridge. The program is freely relocatable
 in flash memory, i.e. you can put it in any flash block which is available on your system. 
 
-If you have stored the program in flash simply issue the command `/reset` at a BASIC prompt or
+If you have stored the program in flash simply issue the command `/reset` at the BASIC prompt or
 `reset` in DOS to make your Foenix perform a soft reset.
 
 # How to build the software
