@@ -33,7 +33,8 @@ zero if the number is smaller than 0x10). The default value is `0a`. **Be carefu
 for the BASIC help system and you **must** change the block number to a block which is available on your system
 if you use the BASIC help system. After having set the block number to a suitable value you also have to check
 that the variable `PORT` references the COM port used by `FoenixMg` on your system. Finally you can issue
-the command `make flash` to build and store the program in onboard flash in one go.
+the command `make flash` to build and store the program in onboard flash in one go. You can use `make clean`
+to delete all file which are created during the build process.
 
 The name of the KUP is specified in line 14 of `flashloader.asm`. It currently is set to `reset`. You could
 change it to `sys64738` for the total retro experience.
